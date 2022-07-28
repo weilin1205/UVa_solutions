@@ -1,4 +1,4 @@
-# C++ Solutions For UVa Problems #
+# C/C++ Solutions For UVa Problems #
 
 ## Introduction 介紹 ##
 
