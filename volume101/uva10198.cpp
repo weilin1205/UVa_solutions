@@ -12,7 +12,10 @@ int main()
         for(int j=0;j<=105;j++)
         {
             dp[i][j]=dp[i-1][j]+dp[i-2][j]+dp[i-3][j]+dp[i-1][j];
-            //大數運算
+        }
+        //大數運算
+        for(int j=0;j<=105;j++)
+        {
             if(dp[i][j]>9999) {
                 dp[i][j+1]+=dp[i][j]/10000;
                 dp[i][j]%=10000;
